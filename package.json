@@ -1,0 +1,32 @@
+{
+  "name": "mccc-iot-device",
+  "version": "1.0.0",
+  "description": "Mother Clucker's Coop Control - IoT Device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenWainwright/MCCC-IoT-Device.git"
+  },
+  "keywords": [
+    "IoT",
+    "Device",
+    "Hub"
+  ],
+  "author": "Darren Wainwright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrenWainwright/MCCC-IoT-Device/issues"
+  },
+  "homepage": "https://github.com/DarrenWainwright/MCCC-IoT-Device#readme",
+  "dependencies": {
+    "azure-iot-common": "^1.12.7",
+    "azure-iot-device": "^1.17.3",
+    "azure-iot-device-amqp": "^1.13.3",
+    "azure-iot-device-http": "^1.13.3",
+    "azure-iot-device-mqtt": "^1.15.3",
+    "dotenv": "^8.2.0"
+  }
+}
